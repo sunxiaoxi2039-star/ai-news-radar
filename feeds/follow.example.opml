@@ -1,23 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>AI News Radar RSS Example</title>
+    <title>阿赛的 AI 雷达信源</title>
   </head>
   <body>
-    <outline text="Official AI Sources">
+    <outline text="官方与实验室">
       <outline
         text="OpenAI News"
         title="OpenAI News"
         type="rss"
         xmlUrl="https://openai.com/news/rss.xml"
         htmlUrl="https://openai.com/news"
-      />
-      <outline
-        text="Hugging Face Blog"
-        title="Hugging Face Blog"
-        type="rss"
-        xmlUrl="https://huggingface.co/blog/feed.xml"
-        htmlUrl="https://huggingface.co/blog"
       />
       <outline
         text="Google DeepMind Blog"
@@ -40,21 +33,19 @@
         xmlUrl="https://news.microsoft.com/source/topics/ai/feed/"
         htmlUrl="https://news.microsoft.com/source/topics/ai/"
       />
-    </outline>
-    <outline text="AI Media and Builders">
       <outline
-        text="Wired AI"
-        title="Wired AI"
+        text="Meta AI Blog"
+        title="Meta AI Blog"
         type="rss"
-        xmlUrl="https://www.wired.com/feed/tag/ai/latest/rss"
-        htmlUrl="https://www.wired.com/tag/artificial-intelligence/"
+        xmlUrl="https://ai.meta.com/blog/rss/"
+        htmlUrl="https://ai.meta.com/blog/"
       />
       <outline
-        text="InfoQ CN"
-        title="InfoQ CN"
+        text="Hugging Face Blog"
+        title="Hugging Face Blog"
         type="rss"
-        xmlUrl="https://www.infoq.cn/feed"
-        htmlUrl="https://www.infoq.cn/"
+        xmlUrl="https://huggingface.co/blog/feed.xml"
+        htmlUrl="https://huggingface.co/blog"
       />
       <outline
         text="NVIDIA Generative AI Blog"
@@ -63,12 +54,79 @@
         xmlUrl="https://developer.nvidia.com/blog/category/generative-ai/feed/"
         htmlUrl="https://developer.nvidia.com/blog/category/generative-ai/"
       />
+    </outline>
+    <outline text="中文信源">
+      <outline
+        text="机器之心"
+        title="机器之心"
+        type="rss"
+        xmlUrl="https://www.jiqizhixin.com/rss"
+        htmlUrl="https://www.jiqizhixin.com/"
+      />
+      <outline
+        text="InfoQ 中文"
+        title="InfoQ CN"
+        type="rss"
+        xmlUrl="https://www.infoq.cn/feed"
+        htmlUrl="https://www.infoq.cn/"
+      />
       <outline
         text="宝玉"
         title="宝玉"
         type="rss"
         xmlUrl="https://baoyu.io/feed.xml"
         htmlUrl="https://baoyu.io/"
+      />
+      <outline
+        text="阮一峰的网络日志"
+        title="阮一峰的网络日志"
+        type="rss"
+        xmlUrl="https://www.ruanyifeng.com/blog/atom.xml"
+        htmlUrl="https://www.ruanyifeng.com/blog/"
+      />
+      <outline
+        text="少数派"
+        title="少数派"
+        type="rss"
+        xmlUrl="https://sspai.com/feed"
+        htmlUrl="https://sspai.com/"
+      />
+    </outline>
+    <outline text="英文媒体与 Builders">
+      <outline
+        text="TechCrunch AI"
+        title="TechCrunch AI"
+        type="rss"
+        xmlUrl="https://techcrunch.com/category/artificial-intelligence/feed/"
+        htmlUrl="https://techcrunch.com/category/artificial-intelligence/"
+      />
+      <outline
+        text="The Verge AI"
+        title="The Verge AI"
+        type="rss"
+        xmlUrl="https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        htmlUrl="https://www.theverge.com/ai-artificial-intelligence"
+      />
+      <outline
+        text="Wired AI"
+        title="Wired AI"
+        type="rss"
+        xmlUrl="https://www.wired.com/feed/tag/ai/latest/rss"
+        htmlUrl="https://www.wired.com/tag/artificial-intelligence/"
+      />
+      <outline
+        text="MIT Technology Review AI"
+        title="MIT Technology Review AI"
+        type="rss"
+        xmlUrl="https://www.technologyreview.com/topic/artificial-intelligence/feed/"
+        htmlUrl="https://www.technologyreview.com/topic/artificial-intelligence/"
+      />
+      <outline
+        text="Ars Technica AI"
+        title="Ars Technica AI"
+        type="rss"
+        xmlUrl="https://feeds.arstechnica.com/arstechnica/technology-lab"
+        htmlUrl="https://arstechnica.com/ai/"
       />
       <outline
         text="Simon Willison"
